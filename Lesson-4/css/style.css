@@ -187,8 +187,7 @@ html {
   margin-top: 50px;
 }
 
-.wrapper_background {
-  max-width: 1510px;
+.pricing {
   background: #f5f5f5;
   padding-top: 110px;
   margin-top: 58px;
@@ -196,14 +195,15 @@ html {
 }
 
 .pricing__carts {
+  display: flex;
   text-align: center;
   margin-top: 59px;
 }
 
 .praicing-tabl {
-  display: inline-block;
   width: 370px;
-  margin: 20px 15px;
+  padding-top: 20px;
+  
 }
 
 .praicing-tabl ul {
@@ -222,14 +222,13 @@ html {
   list-style: none;
   border: 1px solid #f5f5f5;
   text-align: center;
-  padding: 1em;
-  text-transform:capitalize;
+  padding: 0.8em;
+  text-transform: capitalize;
 }
-.praicing-tabl_activ  {
-  /* margin-top: -40px; */
-  box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
-  vertical-align: 20px;
-  
+.praicing-tabl_activ {
+  /* box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2); */
+  /* vertical-align: 20px; */
+  margin: -20px 30px 0;
 }
 
 .praicing-tabl__Categories {
@@ -250,6 +249,10 @@ html {
   font-size: 36px;
   line-height: 42px;
   color: #ffffff;
+  background: #333333;
+  border: 1px solid #f5f5f5;
+}
+.praicing-tabl__general {
   background: #333333;
   border: 1px solid #f5f5f5;
 }
